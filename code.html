@@ -1,2 +1,129 @@
-salut groupe 18
-deuxieme modification
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/Style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="btn-nav">
+        <div class="barre"></div>
+        <div class="barre"></div>
+        <div class="barre"></div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li> <a href="">Acceuil</a> </li>
+            <li> <a href="">Le Chef (Auteur)</a> </li>
+            <li> <a href="">Le livre</a> </li>
+        </ul>
+    </div>
+    <div><img class="logo" src="img-content/logo.svg" alt="logo"></div>
+</header>
+<main id="fullpage" class="clearfix">
+
+        <img class="background" src="img-content/background-intro-black.jpg" alt="">
+
+
+        <section >
+                <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dignissimos illo minima possimus reprehenderit! Enim et magni nihil nostrum repellat sed soluta veritatis. Ab aspernatur assumenda eaque, ipsam nulla quisquam.</p>
+            </section>
+
+        <section >
+            <div id="f" class="containerphoto">
+                <div class="imagediv">
+                        <figure >
+                            <img class="filtre" src="img-content/nourriture/Allen_Lee_Davis.png">
+                            <figcaption>
+                                    <p class="tphoto">Allen Lee Davis</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                        <figure>
+                            <img class="filtre" src="img-content/nourriture/John_Wayne_Gacy.png">
+                            <figcaption>
+                                <p class="tphoto">John Wayne Gacy</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                        <figure >
+                            <img class="filtre" src="img-content/nourriture/Ronnie_Lee_Gardner.png">
+                            <figcaption>
+                                <p class="tphoto">Ronnie Lee Gardner</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Ronnie_threadgill.png">
+                        <figcaption>
+                            <p class="tphoto">Ronnie Threadgill</p>
+                        </figcaption>
+                    </figure>
+
+                    </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Ted_Bundy.png">
+                        <figcaption>
+                            <p class="tphoto">Ted Bundy</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Teresa_Lewis.png">
+                        <figcaption>
+                            <p class="tphoto">Teresa Lewis</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Timothy_McVeigh.png">
+                        <figcaption>
+                            <p class="tphoto">Timothy Mc Veigh</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                        <figure>
+                            <img class="filtre" src="img-content/nourriture/Victor_Feguer.png">
+                            <figcaption>
+                                <p class="tphoto">Victor Feguer</p>
+                            </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="auteur ">
+            <div class="aphoto">
+                <img class="auteurphoto" src="img-content/cuistot.png" alt="auteur">
+            </div>
+            <div class="atext">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores corporis delectus deserunt dolorem ducimus fugit illum ipsa iure iusto laudantium nemo, nisi quas, repellat sapiente voluptas, voluptates? Doloribus, reiciendis.</p>
+            </div>
+        </section>
+
+
+    </main>
+
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      $('.btn-nav').click(function () {
+          $('.navigation').toggleClass('isOpen');
+          $('.logo').toggleClass('isOpen');
+
+      });
+    });
+
+  </script>
+</body>
+</html>
