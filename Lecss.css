@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clearfix:before,
+.clearfix:after{
+  content: '';
+  display: table;
+}
+body { 
+  margin: 0;
+  background-image: url("file:///E:/semaine%20intensive%201/semaine%20d'ine%20test/img-content/background-intro.png"); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+img{
+  width: 350px;
+  height: ;
+}
+section { 
+  height: ;
+  displfay: flex;
+  justdify-content: center;
+  text-align: center; 
+  bafckground-size: cover;
+  bafckground-attachment: fixed;
+  
+
+
+}
+figure{
+  display: inline;
+  text-align: center;
+
+}
+
+figcaption{
+display: block;   position: absolute;
+   top: 1200px;
+   width: 18.5%;
+   color: white; 
+   height: 210px;
+   verstical-align: top;
+ padding-top: 55px;
+ filter: n
+  }
+
+p{
+  font-size: 60px;
+  color:white ;
+font-family: 'Open Sans', sans-serif;
+text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+filter: brightness(200%);
+filter: saturate(4000%);}
+
+figcaption:hover{
+  opacity: 0;
+
+}
+
+.fig2 {
+  display: block;
+  position: absolute;
+   top: 1480px;
+   width: 18.5%;
+   margin:0 auto;
+   paddindg-top: 0px;
+   height: 210px;
+   color: red;
+
+}
+
+section:nth-of-type(1) { 
+height: 1200px;
+}
+
+section:nth-of-type(2){
+      display: inline-block;
+	height: 725px;
+	color: white;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+.imagediv{
+  display: inline-block;
+}
+
+figure{
+  filter: saturate(20%);
+}
+figure:hover{
+  filter: grayscale(0%);
+}
+
+
+
+}
+
+.sec2 {
+	text-align: center;
+	padding-left: 350px;
+	padding-right: 350px;
+	background-color: green;
+	margin-left: auto;
+     margin-right: auto;
+     width: 350px;
+     height: 550px;
+
+
+}
+
+.logo{
+  width: 600px;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  transform: translateX(0%);
+  transition: transform .5s ease-in-out;
+}
+
+.logo.isOpen{
+  transform: translateX(300%);
+  transition: transform .5s ease-in-out;
+}
+.btn-nav{
+  position: fixed;
+  margin: 40px;
+  left: 30px;
+  top: 30px;
+  cursor: pointer;
+  float: left;
+  z-index: 1;
+}
+.btn-nav .barre{
+  width: 35px;
+  height: 7px;
+  background: white;
+  margin-top: 3px;
+  z-index: 1;
+  border: solid 1px black;
+}
+.navigation{
+  position: fixed;
+  padding: 0 30px;
+  width: 75%;
+  height: 30%;
+  transform: translateX(-100%);
+  transition: transform .6s ease-in-out;
+}
+.navigation ul{
+  position: absolute;
+  left: 17%;
+}
+.navigation ul li{
+  margin: 74px 0;
+  float: left;
+}
+.navigation ul li a{
+  color: #fff;
+  margin: 20px 40px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: .070em;
+  top: 40px;
+  text-align: center;
+}
+.navigation.isOpen{
+transform: translateX(0%);
+margin-left: 10%;
+margin-top: 0.5%;
+}
+.navigation ul li a:hover{
+  color: orangered;
+}
+
+.intro{
+padding-top: 400px;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  color: white;
+  font-size: 30px;
+}
