@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+
+<body>
+<main class="clearfix">
+	<div class="content">
+    <header>
+          <h1>Teresa Lewis</h1>
+      <div class="soustitre">
+		    <h2 id="age">41 ans</h2>
+		    <h2 id="etat">virginie</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/Teresa_Lewis.png" alt="Plat de Teresa Lewis">
+		   <p>
+ 		Teresa Wilson Bean Lewis 26 Avril 1969 - 23 Septembre 2010 a été condamnée à mort par injection létale pour les meurtres de son mari et son beau-fils. 
+		<br> <br> <strong>Last Meal</strong> : deux poitrines de poulet frit, des petits pois avec du beurre, un Dr Pepper et gâteau au chocolat pour le dessert.
+
+		<img id="prisoners" src="img-content/Teresa_Lewis_DOC.png" alt="Teresa Lewis">
+		</p>
+
+		</section> 
+	</div>
+</main>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script>
+
+		$(document).ready(function () {
+			$('.btn-nav').click(function () {
+				$('.navigation').toggleClass('isOpen');
+				$('header').toggleClass('isOpen');
+
+			});
+		});
+
+	</script>
+</body>
+</html>

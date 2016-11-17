@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+<body>
+
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+
+    <div class="content">
+    <header>
+          <h1>Ted Bundy</h1>
+      <div class="soustitre">
+		    <h2 id="age">43 ans</h2>
+		    <h2 id="etat">floride</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/Ted_Bundy.png" alt="Plat de Ted Bundy">
+		   <p>
+		Ted Bundy né  le 24 Novembre 1946  et mort le 24 Janvier 1989. Il a agressé et assassiné une trentaine  de jeunes femmes dans les années 1970. Exécuté sur la chaise électrique.
+		<br><br> <strong>Last Meal</strong>: steak, oeuf au plat, galette de pomme de terre, toast avec beurre et confiture, lait et jus d'orange.
+
+		<img id="prisoners" src="img-content/tedbundy-betrayal.png" alt="Ted Bundy">
+		</p>
+
+		</section> 
+	</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+
+	$(document).ready(function () {
+		$('.btn-nav').click(function () {
+			$('.navigation').toggleClass('isOpen');
+			$('header').toggleClass('isOpen');
+
+		});
+	});
+
+</script>
+</body>
+</html>

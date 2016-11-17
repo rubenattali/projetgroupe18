@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="btn-nav">
+        <div class="barre"></div>
+        <div class="barre"></div>
+        <div class="barre"></div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li> <a href="index.html">Acceuil</a> </li>
+            <li> <a href="#millieu">Les Menus</a> </li>
+            <li> <a href="#auteur">Brian D.Price</a> </li>
+        </ul>
+    </div>
+    <div><img class="logo" src="img-content/logo.svg" alt="logo"></div>
+</header>
+<main class="clearfix">
+        <img class="background" src="img-content/background-intro-black.jpg" alt="">
+
+
+        <section class="debut">
+                <p class="intro">Condamnés à la peine capitale, les prisonniers sur le point d'être exécutés aux États-Unis peuvent bénéficier
+                d'un dernier repas de leur choix. Telle une dernière volonté, celui-ci pouvait être composé de tous les mets
+                possibles. Brian D. Price, détenu et chef cuisinier partage dans son livre ces derniers repas. Témoignages ...
+
+                </p>
+
+            <a class=lienlivre  href="https://www.amazon.com/Meals-Die-Brian-D-Price/dp/0974916595/ref=sr_1_2?s=books&ie=UTF8&qid=1479386254&sr=1-2&keywords=Meals+to+Die+For">Le Livre</a>
+
+        </section>
+
+        <section class="millieu" id="millieu">
+            <div id="f" class="containerphoto">
+                <div class="imagediv">
+                        <figure >
+                            <img class="filtre" src="img-content/nourriture/Allen_Lee_Davis.png">
+                            <a href="Allen-Lee-Davis.html"><figcaption>
+                                    <p class="tphoto">Allen Lee Davis</p>
+                            </figcaption></a>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                        <figure>
+                           <img class="filtre" src="img-content/nourriture/John_Wayne_Gacy.png">
+                            <a href="John-Wayne-Gacy.html"><figcaption>
+                                <p class="tphoto">John Wayne Gacy</p>
+                            </figcaption></a>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                        <figure >
+                            <img class="filtre" src="img-content/nourriture/Ronnie_Lee_Gardner.png">
+                            <a href="Ronnie-Lee-Gardner.html"> <figcaption>
+                                <p class="tphoto">Ronnie Lee Gardner</p>
+                            </figcaption></a>
+                        </figure>
+                    </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Ronnie_threadgill.png">
+                        <a href="Ronnie-Threadgill.html"><figcaption>
+                            <p class="tphoto">Ronnie Threadgill</p>
+                        </figcaption></a>
+                    </figure>
+
+                    </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Ted_Bundy.png">
+                        <a href="Ted-Bundy.html"><figcaption>
+                            <p class="tphoto">Ted Bundy</p>
+                        </figcaption></a>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Teresa_Lewis.png">
+                        <a href="Teresa-Lewis.html"><figcaption>
+                            <p class="tphoto">Teresa Lewis</p>
+                        </figcaption></a>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                    <figure>
+                        <img class="filtre" src="img-content/nourriture/Timothy_McVeigh.png">
+                        <a href="Timorhy-Mc-Veigh.html"><figcaption>
+                            <p class="tphoto">Timothy Mc Veigh</p>
+                        </figcaption></a>
+                    </figure>
+                </div>
+                <div class="imagediv">
+                        <figure>
+                            <img class="filtre" src="img-content/nourriture/Victor_Feguer.png">
+                            <a href="Victor-feguer.html"><figcaption>
+                                <p class="tphoto">Victor Feguer</p>
+                            </figcaption></a>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="auteur" id="auteur">
+            <div class="aphoto">
+                <img class="auteurphoto" src="img-content/cuistot.png" alt="auteur">
+            </div>
+            <div class="atext fondtextauteur">
+                <h3>Brian Price</h3>
+                <p class="auteurtext">L'auteur Brian Price, originaire de San Antonio, au Texas, est incarcéré en 1989 pour agression sexuelle  et a servi 14 années en tant que cuisinier de prison. Avant l'incarcération, il était musicien professionnel
+                    et photographe."Si je n'avais pas été en prison depuis si longtemps, je n'aurais pas écrit le livre et je ne serais pas avec la femme avec qui je suis maintenant."</br>En prison, il est nommé chef du couloir de la mort. Il prépara les derniers repas de près de 200 prisonniers condamnés à mort. Au cours de son mandat de 10 ans en tant que chef du couloir de la mort, il a observé les détails sombres de ces évènements dramatiques ainsi que les crimes qui ont causé ces exécutions. </p>
+            </div>
+        </section>
+
+    </main>
+
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+                /* bruger */
+    $(document).ready(function () {
+      $('.btn-nav').click(function () {
+          $('.navigation').toggleClass('isOpen');
+          $('.logo').toggleClass('isOpen');
+
+      });
+                /* Scroll Navigation */
+        $(window).on('scroll', function() {
+           var scroll = $(this).scrollTop();
+            if (scroll>=210){
+                $('.debut').addClass('nonvisible');
+            } else {
+                $('.debut').removeClass('nonvisible');
+            }
+
+            if (scroll>=1290){
+                $('.millieu').addClass('nonvisible');
+            } else {
+                $('.millieu').removeClass('nonvisible');
+            }
+            console.log(scroll);
+        });
+
+    });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+<body>
+    <div class="content">
+    <header>
+          <h1>Victor Feguer</h1>
+      <div class="soustitre">
+		    <h2 id="age">28 ans</h2>
+		    <h2 id="etat">iowa</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/Victor_Feguer.png" alt="Plat de Victor Feguer">
+		<p>
+		Victor Harry Feguer, né en 1935 et mort le 15 Mars 1963, est condamné pour kidnapping et meurtre. Celui-ci mourra par injection létale. 
+		<br><br> <strong>Last Meal</strong>: une simple olive.
+		<br>Feguer a demandé une olive seule avec une fosse et a dit qu'un olivier, symbole de paix, germerait de sa tombe.
+		<img id="prisoners" src="img-content/victor-feguer.png" alt="Victor Feguer">
+		</p>
+
+		</section> 
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script>
+
+		$(document).ready(function () {
+			$('.btn-nav').click(function () {
+				$('.navigation').toggleClass('isOpen');
+				$('header').toggleClass('isOpen');
+
+			});
+		});
+
+	</script>
+</body>
+</html>

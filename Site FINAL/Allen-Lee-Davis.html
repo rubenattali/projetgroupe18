@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+
+
+    <div class="btn-nav">
+        <div class="barre"></div>
+        <div class="barre"></div>
+        <div class="barre"></div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li> <a href="index.html">Acceuil</a> </li>
+            <li> <a href="index.html#millieu">Les Menus</a> </li>
+            <li> <a href="index.html#auteur">Brian D.Price</a> </li>
+        </ul>
+    </div>
+
+
+<body>
+<main class="clearfix">
+    <div class="content">
+    <header>
+          <h1>Allen Lee Davis</h1>
+      <div class="soustitre">
+		    <h2 id="age">54 ans</h2>
+		    <h2 id="etat">floride</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/Allen_Lee_Davis.png" alt="Plat de Allen Lee Davis">
+		   <p>
+		Allen Lee Davis né le 20 Juillet 1944  et mort le 8 Juillet 1999 est condamné à mort sur la chaise électrique pour le meurtre d'une femme enceinte et de ses deux enfants le 11 Mai 1982.
+		<br> <br> <strong>Last Meal</strong>: queue de homard, pommes de terre frites, 1/2 crevette frite, 6 palourdes en friture.
+
+		<img id="prisoners" src="img-content/220px-Allen_Lee_Davis.png" alt="Allen Lee Davis">
+		</p>
+
+		</section> 
+	</div>
+</main>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      $('.btn-nav').click(function () {
+          $('.navigation').toggleClass('isOpen');
+          $('header').toggleClass('isOpen');
+
+      });
+    });
+
+  </script>
+	
+</body>
+</html>

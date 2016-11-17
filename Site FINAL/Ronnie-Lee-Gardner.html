@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+<body>
+
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+    <div class="content">
+    <header>
+          <h1>Ronnie Lee Gardner</h1>
+      <div class="soustitre">
+		    <h2 id="age">49 ans</h2>
+		    <h2 id="etat">utah</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/Ronnie_Lee_Gardner.png" alt="Plat de Ronnie Lee Gardner">
+		   <p>
+			Ronnie Lee Gardner est condamné pour plusieurs homicides, et avait demandé à être fusillé plutôt que tué par injection létale le 18 Juin 2010.
+			<br>Repas final : queue de homard, steack, tarte aux pommes, glace à la vanille, a mangé en regardant le seigneur des anneaux.
+
+		<img id="prisoners" src="img-content/Ronnie_Lee_Gardner_Mugshot.png" alt="Ronnie Lee Gardner">
+		</p>
+
+		</section> 
+	</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+
+	$(document).ready(function () {
+		$('.btn-nav').click(function () {
+			$('.navigation').toggleClass('isOpen');
+			$('header').toggleClass('isOpen');
+
+		});
+	});
+
+</script>
+</body>
+</html>

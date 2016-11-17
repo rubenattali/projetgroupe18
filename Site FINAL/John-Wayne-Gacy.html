@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+
+<body>
+
+<main class="clearfix">
+
+    <div class="content">
+    <header>
+          <h1>John Wayne Gacy</h1>
+      <div class="soustitre">
+		    <h2 id="age">52 ans</h2>
+		    <h2 id="etat">illinois
+</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/John_Wayne_Gacy.png" alt="Plat de John Wayne Gacy">
+		   <p>
+		John Wayne Gacy est un tueur en série, surnommé le « clown tueur » en référence à l'habitude qu'il avait de se déguiser en clown pour amuser les enfants dans les hôpitaux. Il est exécuté le 10 Mai 1994 par injection létale.
+		<br> <br> <strong>Last Meal</strong>: 12 crevettes frites, 1 sot de KFC, frites, fraises.
+
+		<img id="prisoners" src="img-content/john wayne Gacy.png" alt="John Wayne Gacy">
+		</p>
+
+		</section> 
+	</div>
+</main>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script>
+
+		$(document).ready(function () {
+			$('.btn-nav').click(function () {
+				$('.navigation').toggleClass('isOpen');
+				$('header').toggleClass('isOpen');
+
+			});
+		});
+
+	</script>
+</body>
+</html>

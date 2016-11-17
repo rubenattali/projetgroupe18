@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meals To Die For Menu perso</title>
+	<link rel="stylesheet" href="css/menuperso.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+   </style>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+   </style>
+</head>
+
+<div class="btn-nav">
+	<div class="barre"></div>
+	<div class="barre"></div>
+	<div class="barre"></div>
+</div>
+<div class="navigation">
+	<ul>
+		<li> <a href="index.html">Acceuil</a> </li>
+		<li> <a href="index.html#millieu">Les Menus</a> </li>
+		<li> <a href="index.html#auteur">Brian D.Price</a> </li>
+	</ul>
+</div>
+
+<body>
+    <div class="content">
+    <header>
+          <h1>Timorhy MC VEIGH</h1>
+      <div class="soustitre">
+		    <h2 id="age">33 ans </h2>
+		    <h2 id="etat">indiana</h2>
+      </div>
+    </header>
+		  <section>
+
+		<img id="platg" src="img-content/timoth_McVeigh.png" alt="Plat de Timorhy MC VEIGH">
+		   <p>
+		Timorhy Mc Veigh né le 23 Avril 1968 et exécuté pas injection létale le 11 Juin 2001 est un vétéran de l'armée américaine qui est devenu célèbre pour avoir fait exploser un camion piégé devant un bâtiment fédéral.
+		Cet attentat a tué 168 personnes, blessé plus de 680 personnes.
+		<br><br> <strong>Last Meal</strong>: 1 pot de glace à la menthe et aux pépites de chocolat.
+
+		<img id="prisoners" src="img-content/Timothy_McVeigh.png" alt="Timorhy MC VEIGH">
+		</p>
+
+		</section> 
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script>
+
+		$(document).ready(function () {
+			$('.btn-nav').click(function () {
+				$('.navigation').toggleClass('isOpen');
+				$('header').toggleClass('isOpen');
+
+			});
+		});
+
+	</script>
+</body>
+</html>
